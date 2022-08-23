@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    /* border: 0.1px solid pink; */
+}
+
+body{
+    font-family: "Poppins";
+    color: white;
+    background-color: #111111;
+}
+
+.header{
+    height: 90vh;
+    padding: 0px 20vh;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo , .im{
+    margin-top: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap : wrap;
+    font-size: 12px;
+}
+
+.item:not(:first-child){
+    margin-left: 70px;
+}
+
+.item:hover{
+    color: #f93241;
+    cursor: pointer;
+}
+
+.subhead{
+    display: flex;
+}
+
+.art>h5{
+    color: #f93241;
+    font-size: 1em;
+}
+
+.art>h1{
+    font-size: 3em;
+}
+
+.mainpic{
+    height: 80vh
+}
+
+.art > button{
+    margin-right: 70%;
+}
+
+button{
+    padding: 15px 40px;
+    background-color: #c91b28;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: #f93241;
+    cursor: pointer;
+}
+
+.mainpic , .art{
+    flex:1;
+}
+
+.art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blank{
+    display: flex;
+    height: 110vh;
+    margin-top: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.blank-col1{
+    background-color: #181818;
+}
+
+.design > div{
+    background-color:  #1e1e1e;
+}
+
+.design > div > i , .design > div > p , .cardBot > p{
+    color: #f93241;
+}
+
+.blank-col1 , .blank-col2{
+    flex: 1;
+}
+
+.not-blank{
+    position: relative;
+    bottom: 110vh;
+    margin-bottom: -110vh;
+}
+
+.design , .exp{
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    margin: 50px 0px;
+}
+
+.ui , .pd , .br {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    padding: 10px 34px;
+}
+
+.expe{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center 
+}
+
+.trans > h1{
+    font-size: 5em;
+    text-align: center;
+    font-weight: 1000;
+    color: #f93241;
+}
+
+.trans > h4{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.sub-exp{
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.sub-exp>h2{
+    color: #f93241;
+    font-size: 2em;
+}
+
+.fea{
+    padding: 30px 15%;
+}
+
+.fea-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fea-cards{
+    margin-bottom: 20px;
+}
+
+.fea-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardTop > img{
+    height: 250px;
+    width: 400px;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.cardTop > img:hover{
+    height: 270px;
+    width: 430px;
+    margin: -15PX;
+    cursor: pointer;
+}
+
+.cardTop:hover{
+    background-color: rgb(49, 48, 48);
+}
+
+.cardTop{
+    background-color: #1e1e1e;
+    height: 350px;
+}
+
+
+.contact{
+    height: 40vh;
+    margin: 10vh 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 10px 40px
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-text{
+    flex: 2;
+    padding-right: 40px;
+}
+
+.con-bot{
+    flex: 1;
+}
+
+.fot-item {
+    margin-left: 80px;
+}
+
+.design > div:hover .fa-solid , .design > div:hover p ,.design > div:hover{
+    background-color: #f93241;
+    color: white;
+    cursor: pointer;
+}
+
+.fot-bot > div > i:not(:first-child){
+    margin-left: 40px;
+}
+
+.fot-bot{
+    display: flex;
+    background-color: 
+    #1e1e1e;
+    margin-top: 20px;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+    width: 100%;
+}
+
