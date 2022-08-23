@@ -265,3 +265,116 @@ footer{
     width: 100%;
 }
 
+.item-nav{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+.header{
+    height: auto;
+    padding: 3vh
+}
+
+nav{
+    height: auto;
+}
+
+.item-nav{
+    display: block;
+    color:#f93241;
+}
+
+.logo , .im{
+    margin-top: 8px;
+}
+
+.item{
+    display: none;
+}
+
+.subhead{
+    flex-direction: column;
+}
+
+.art>h5{
+    margin-top: 5px;
+}
+
+.art > button{
+    display: block;
+    margin: auto;
+}
+
+.art{
+    text-align: center;
+}
+
+.design , .exp{
+    flex-wrap: wrap;
+    height: auto;
+    margin: 10px;
+}
+
+.design{
+    margin-top: 60px;
+}
+
+.ui , .pd , .br {
+    text-align: center;
+    width: auto;
+    padding: auto;
+}
+
+.exp{
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.expe{
+    width: 31%;
+}
+
+.fea{
+    padding: 10px 20px;
+}
+
+.fea-cards{
+    width: 100%;
+}
+
+.cardTop > img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 80%;
+}
+
+.cardTop > img:hover{
+    height: 220px;
+    width: 88%;
+    margin: 0PX;
+}
+
+.cardTop{
+    height: 300px;
+}
+
+.contact{
+    height: auto;
+    margin: 3vh 20px ;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px
+}
+
+.fot-item {
+    display: none;
+}
+
+.con-text{
+    padding-right: 0px;
+}
+}
